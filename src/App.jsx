@@ -22,7 +22,7 @@ export default function App() {
           <label htmlFor="item"> New Item </label>
           <input value={newItem} onChange={e => setNewItem(e.target.value)} type="text" id="item" />
         </div>
-        <button className="btn"> Add </button>
+        <button className="btn"> Add Item </button>
       </form>
       <h1 className="header">Todo List</h1>
       <ul className="list">
